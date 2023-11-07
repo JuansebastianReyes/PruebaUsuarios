@@ -1,0 +1,10 @@
+<body class="bg-primary text-white d-flex align-items-center justify-content-center" style="min-height: 100vh; margin: 0;">
+
+  <div *ngIf="louder" class="text-center">
+    <h1>Bienvenido</h1>
+    <p>Nuestro número de usuarios registrados es {{usrs}}</p>
+  </div>
+  <div *ngIf="!louder"  class="spinner-border" role="status">
+    <span class="sr-only"></span>
+  </div>
+</body>
